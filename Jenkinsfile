@@ -7,7 +7,7 @@ pipeline {
 		            echo "Code Checked-out Successfully!!";
             }
         }
-        
+/* this is a test project*/        
         stage('Package') {
             steps {
                 bat 'mvn package'    
